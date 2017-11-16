@@ -1,0 +1,26 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix lib test *.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1"
+  }
+}

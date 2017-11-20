@@ -1,14 +1,15 @@
 {
   "name": "sudoku",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "Sudoku validator",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix lib test *.js",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jean Desravines <hi@jeandesravines.com (http://www.jeandesravines.com)",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.2",
